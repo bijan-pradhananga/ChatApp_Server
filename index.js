@@ -10,7 +10,7 @@ const server = http.createServer(app);
 app.use(cors());
 const io = new Server(server,{
     cors:{
-        origin:'https://chat-app-client-pcff0qqit-bijans-projects-7b51d8ab.vercel.app/',
+        origin:'https://chat-app-client-pcff0qqit-bijans-projects-7b51d8ab.vercel.app',
         methods:["GET","POST"]
     }
 });
